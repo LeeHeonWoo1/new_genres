@@ -6,4 +6,6 @@
 Repo
   |---basic               # 파이썬 레벨업..!
   |---anomaly_detection   # Convolutional Auto Encoder를 활용한 비정상 이미지 탐지
+  |---recommendation      # 추천 시스템
+  |---nlp                 # Natural Language Processing
 ```
