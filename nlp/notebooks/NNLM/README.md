@@ -27,7 +27,7 @@ $$ P(insults|boy\;is\;spreading) = 0.500 $$
 
 $$P(smiles|boy\;is\;spreading) = 0.200$$
 
-하지만 이러한 n-gram 언어 모델은 충분한 데이터를 관측하지 못하면 언어를 정확히 모델링하지 못하는 희소 문제(sparsity problem)가 있습니다. 예를 들어 훈련 코퍼스에 **'boy is spreading smile'**이라는 단어 시퀀스가 존재하지 않으면 n-gram 언어 모델에서 해당 단어 스퀀스의 확률 $P(smiles|boy\;is\;spreading)$은 0이 됩니다. 이는 언어 모델이 판단하기에 boy is spreading 다음에는 smiles이란 단어가 나올 수 없다는 의미이지만, 해당 단어 시퀀스는 현실에서 존재 가능한 시퀀스이므로 적절한 모델링이 아닙니다.
+하지만 이러한 n-gram 언어 모델은 충분한 데이터를 관측하지 못하면 언어를 정확히 모델링하지 못하는 희소 문제(sparsity problem)가 있습니다. 예를 들어 훈련 코퍼스에 '**boy is spreading smile**'이라는 단어 시퀀스가 존재하지 않으면 n-gram 언어 모델에서 해당 단어 스퀀스의 확률 $P(smiles|boy\;is\;spreading)$은 0이 됩니다. 이는 언어 모델이 판단하기에 boy is spreading 다음에는 smiles이란 단어가 나올 수 없다는 의미이지만, 해당 단어 시퀀스는 현실에서 존재 가능한 시퀀스이므로 적절한 모델링이 아닙니다.
 
 ## 2. 단어의 의미적 유사성
 
