@@ -5,3 +5,8 @@ models
 Classification
 anomaly_dataset
 .vscode
+pose
+openpose
+output_images
+eng_w2v
+vectors.txt
