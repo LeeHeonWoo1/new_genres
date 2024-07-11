@@ -103,7 +103,7 @@ $$ \hat{y}_t = Softmax(W_y\tilde{s}_t + b_y) $$
 |이름|스코어 함수|Defined by|
 |:--:|:--:|:--:|
 |dot|$score(s_t, h_i) = s_i^Th_i$|Luong et al.(2015)|
-|scaled dot|$$ score(s_t, h_i) = {s_t^Th_i\over \sqrt{n}} $$|Vaswani et al.(2017)|
-|general|$$ score(s_t, h_i) = s_t^TW_ah_i $$ 단, W_a는 학습 가능한 가중치 행렬|Luong et al. (2015)|
-|concat|$$ score(s_t, h_i) = W_a^Ttanh(W_b[s_t;h_i]), score(s_t, h_i) = W_a^Ttanh(W_bs_t + W_ch_i) $$|Bahdanau et al.|
-|location - base|$$ \alpha_t = softmax(W_as_t) $$ ||
+|scaled dot|$ score(s_t, h_i) = {s_t^Th_i\over \sqrt{n}} $|Vaswani et al.(2017)|
+|general|$ score(s_t, h_i) = s_t^TW_ah_i $ 단, W_a는 학습 가능한 가중치 행렬|Luong et al. (2015)|
+|concat|$ score(s_t, h_i) = W_a^Ttanh(W_b[s_t;h_i]), score(s_t, h_i) = W_a^Ttanh(W_bs_t + W_ch_i) $|Bahdanau et al.|
+|location - base|$ \alpha_t = softmax(W_as_t) $ ||
