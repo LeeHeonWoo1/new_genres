@@ -4,8 +4,10 @@
 
 ```
 Repo
-  |---basic               # 파이썬 레벨업..!
+  |---Kaggle              # 캐글 노트북 필사
   |---anomaly_detection   # Convolutional Auto Encoder를 활용한 비정상 이미지 탐지
-  |---recommendation      # 추천 시스템
+  |---basic               # 파이썬 레벨업..!
+  |---flutter             # flutter for app programming
   |---nlp                 # Natural Language Processing
+  |---recommendation      # 추천 시스템
 ```
