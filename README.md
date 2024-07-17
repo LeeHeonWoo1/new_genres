@@ -5,6 +5,7 @@
 ```
 Repo
   |---Kaggle              # 캐글 노트북 필사
+  |---TimeSeries          # 시계열 데이터 분석 및 모델링
   |---anomaly_detection   # Convolutional Auto Encoder를 활용한 비정상 이미지 탐지
   |---basic               # 파이썬 레벨업..!
   |---flutter             # flutter for app programming
